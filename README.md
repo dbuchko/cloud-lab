@@ -58,13 +58,13 @@ Key points:
 
 ### 0.1 - Generate a Spring Boot Template from https://start.spring.io
 Stick to the default settings, however update:
-- for dependencies add **Web**
+- for dependencies add **Spring Web Starter**
 
 <img src="img/init-screen.png">
 
 Download it, and unzip it.
 
-> NOTE - Make sure that the **Web** Dependency was added -- you should see *spring-boot-starter-web* in your pom.xml
+> NOTE - Make sure that the **Spring Web Starter** Dependency was added -- you should see *spring-boot-starter-web* in your pom.xml
 
 Note the mvnw file:
 This is the Wrapper components for Maven: ensuring build script version consistency, removing the dependency of having these build tools installed , and simplifying CI build agent dependencies (only a JDK will be required).
