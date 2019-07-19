@@ -115,7 +115,7 @@ On Windows machines:
 mvnw.cmd spring-boot:run
 ```
 
-> NOTE: if you have trouble running Maven Wrapper (mvwn) it is most likely due to Proxy issues,  try regular Maven (not wrapper)
+> NOTE: if you have trouble running Maven Wrapper (mvnw) it is most likely due to Proxy issues,  try regular Maven (not wrapper)
 
 ---
 
@@ -184,7 +184,7 @@ With Intellij, you can now run the Test by right clicking on it.
 From the commandline you can run them with:
 
 ```sh
-./mvwn test
+./mvnw test
 ```
 
 On Windows machines:
