@@ -269,6 +269,7 @@ Add the following dependency to your `pom.xml` file.
 
 ```
 
+Create the HomePageController.
 
 ```java
 
