@@ -257,6 +257,19 @@ Via the GUI observe additional instances being spun up.
 
 ### 2.6 - BONUS - Add a HomePage Controller to display PCF information using VCAP variables
 
+Add the following dependency to your `pom.xml` file.
+
+```java
+<!-- https://mvnrepository.com/artifact/io.micrometer/micrometer-core -->
+<dependency>
+    <groupId>io.micrometer</groupId>
+    <artifactId>micrometer-core</artifactId>
+    <version>1.1.5</version>
+</dependency>
+
+```
+
+
 ```java
 
 import io.micrometer.core.instrument.Metrics;
